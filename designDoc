@@ -4,6 +4,8 @@ Implement Game Object
 
 Game must have:
 
+Gameboard with 3 columns and 3 rows
+
 2 players
 
 Each player must have either X or 0
