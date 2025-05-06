@@ -1,0 +1,26 @@
+Tic Tac Toe:
+
+Implement Game Object
+
+Game must have:
+
+2 players
+
+Each player must have either X or 0
+
+The game is turn based
+
+3 of the same symbols vertically, diagonally or horizontally result in a win for the respective player
+
+Prevent players from inserting their symbol on an already populated container
+
+Option store symbols in arrays: 9 total symbols at most
+
+3 rows + 3 columns + 2 diagonal lines = 8 mini arrays
+
+on round end, if a mini array is full, check if the symbol is the same
+
+Optimisation: prevent checking an array if it has already been checked
+
+If all squares have been drawn on and nobody has won, end the game in a tie
+
